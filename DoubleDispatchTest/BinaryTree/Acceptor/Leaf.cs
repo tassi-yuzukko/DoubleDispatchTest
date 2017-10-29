@@ -18,5 +18,10 @@ namespace DoubleDispatchTest.BinaryTree.Acceptor
         {
             visitor.Visit(this);
         }
+
+        public void Execute()
+        {
+            Console.WriteLine($"Leaf : {Value}");
+        }
     }
 }

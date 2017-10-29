@@ -9,5 +9,6 @@ namespace DoubleDispatchTest.BinaryTree.Acceptor
     {
         int Value { get; set; }
         void Accept(ITreeVisitor visitor);
+        void Execute();
     }
 }

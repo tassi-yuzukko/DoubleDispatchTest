@@ -24,5 +24,12 @@ namespace DoubleDispatchTest.BinaryTree.Acceptor
             visitor.Visit(this);
             right.Accept(visitor);
         }
+
+        public void Execute()
+        {
+            left.Execute();
+            Console.WriteLine($"Node : {Value}");
+            right.Execute();
+        }
     }
 }
