@@ -9,12 +9,12 @@ namespace DoubleDispatch3.Service
     {
         public Response MasterCard()
         {
-            return new Response { X = -1 };
+            return Response.MasterCard();
         }
 
         public Response RiyoushaCard(int x)
         {
-            return new Response { X = x };
+            return Response.RiyoushaCard(x);
         }
 
         public Response Execute()
@@ -29,6 +29,16 @@ namespace DoubleDispatch3.Service
         public class Response : ICardNinshouResult
         {
             public int X = 0;
+
+            static public Response MasterCard()
+            {
+                return new Response { X = -1 };
+            }
+
+            static public Response RiyoushaCard(int x)
+            {
+                return new Response { X = x };
+            }
         }
     }
 }
