@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoubleDispatchTest", "DoubleDispatchTest\DoubleDispatchTest.csproj", "{165DE420-B5F2-466C-96CB-7571A26B8A8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoubleDispatchTest", "DoubleDispatchTest\DoubleDispatchTest.csproj", "{165DE420-B5F2-466C-96CB-7571A26B8A8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoubleDispatch2", "DoubleDispatch2\DoubleDispatch2.csproj", "{DF6C8006-E4A6-446A-89B9-8679ECF4912D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoubleDispatch3", "DoubleDispatch3\DoubleDispatch3.csproj", "{FBBA528C-8413-40DD-A74E-D32CC6BB66EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{165DE420-B5F2-466C-96CB-7571A26B8A8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{165DE420-B5F2-466C-96CB-7571A26B8A8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{165DE420-B5F2-466C-96CB-7571A26B8A8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF6C8006-E4A6-446A-89B9-8679ECF4912D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF6C8006-E4A6-446A-89B9-8679ECF4912D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF6C8006-E4A6-446A-89B9-8679ECF4912D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF6C8006-E4A6-446A-89B9-8679ECF4912D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBBA528C-8413-40DD-A74E-D32CC6BB66EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBBA528C-8413-40DD-A74E-D32CC6BB66EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBBA528C-8413-40DD-A74E-D32CC6BB66EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBBA528C-8413-40DD-A74E-D32CC6BB66EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

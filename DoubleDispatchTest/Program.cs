@@ -29,8 +29,8 @@ namespace DoubleDispatchTest
             ITree node2 = new Node(6, leaf3, leaf4);
             ITree nodeTop = new Node(7, node1, node2);
 
-            ITreeVisitor visitor = new TreeVisitor();
-            nodeTop.Accept(visitor);
+            //ITreeVisitor visitor = new TreeVisitor();
+            //nodeTop.Accept(visitor);
             nodeTop.Execute();
         }
     }
